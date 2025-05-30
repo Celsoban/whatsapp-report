@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: whatsapp-report
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
